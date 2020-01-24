@@ -2,17 +2,17 @@ Index
 -----
 This is the Linux Printer Driver for HBPLv1.0 Printer ,such as Dell 1250c, Dell C1660w, Dell C1760w, Epson AcuLaser C1700, Fuji-Xerox DocuPrint CP105b.
 
-Which is development from coffin's hbplv1 printer driver and make some modify below:
+Which is improve from coffin's hbplv1 printer driver and make some modify below:
 
 ```
 1. Modify *.ppd file , fix " Unimplemented paper code * " Problem.
 
 2. Add a5 paper size support
 
-3. Create `configure` and `makefile.in` for easy configure,install,uninstall.
+3. Create `configure` , `makefile.in` and `makefile` for easy configure,install,uninstall.
 ```
 
-For more detail about the drivers, [go here](http://www.dechifro.org/hbpl)
+For more detail about the original driver,go to [Dave Coffin's Home Page](http://www.dechifro.org/hbpl)
 
 Dependency
 -----
@@ -46,3 +46,10 @@ Uninstall
 -----
 `make uninstall` or `sudo make uninstall`.
 
+Knowed Bugs
+-----
+* The resoultion is fixed at 600 x 600 dpi.
+
+* The printer may not responed , after published the print jobs too frequently , restart the printer should be slove the problem.
+
+* The print direction may be reversed in some graphic softwares like eog , if you care the direction, you can print the thing into a ghostscript file or a pdf file with a virtual printer, and then print the file with the printer.
