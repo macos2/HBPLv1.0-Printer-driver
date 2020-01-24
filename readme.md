@@ -22,6 +22,12 @@ Install develop the package like `libjbig-dev`,`jbig-devel`and so on.
 
 @Debian 10: `sudo apt install libjbig-dev`
 
+Configure
+-----
+`./configure` to configure the install path,leave blank for default install path `/usr`
+
+it's also a configured `makefile` created for default install path.so you can skip this step if you want to use `/usr` for default install path.
+
 Build
 -----
 just `make` or `make all`
