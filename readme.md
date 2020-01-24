@@ -5,7 +5,6 @@ This is the Linux Printer Driver for HBPLv1.0 Printer ,such as Dell 1250c, Dell 
 Which is development from coffin's hbplv1 printer driver and make some modify below:
 
 ```
-
 1. Modify *.ppd file , fix " Unimplemented paper code * " Problem.
 
 2. Add a5 paper size support
