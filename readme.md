@@ -6,7 +6,7 @@ This is the Linux Printer Driver for HBPLv1.0 Printer ,such as Dell 1250c, Dell 
 
 Which is improve from coffin's hbplv1 printer driver and make some modify below:
 
-在coffin的 hbplv1 打印驱动为基础上作出以下改进：
+这是在coffin的hbplv1打印驱动基础上作出以下改进：
 
 ```
 1. Modify *.ppd file , fix " Unimplemented paper code * " Problem.
@@ -21,7 +21,7 @@ Which is improve from coffin's hbplv1 printer driver and make some modify below:
 
 For more detail about the original driver,go to [Dave Coffin's Home Page](http://www.dechifro.org/hbpl)
 
-了解原始驱动的详情，请到[Dave Coffin's Home Page](http://www.dechifro.org/hbpl)
+想了解原始驱动的详情，请到[Dave Coffin's Home Page](http://www.dechifro.org/hbpl)
 
 Dependency 依赖
 -----
