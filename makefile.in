@@ -22,7 +22,9 @@ install:all $(shell find crd/*.ps crd/*cms2 crd/*cms) $(shell find ppd/*.ppd)
 	@cp foo2hbpl1-wrapper $(INSTALL_DIR)/bin
 	@chmod 0755 $(INSTALL_DIR)/bin/foo2hbpl1 $(INSTALL_DIR)/bin/hbpldecode $(INSTALL_DIR)/bin/foo2hbpl1-wrapper
 	@cp -r crd $(INSTALL_DIR)/share/foo2hbpl
+	@cp -r icm $(INSTALL_DIR)/share/foo2hbpl
 	@chmod 0644 $(INSTALL_DIR)/share/foo2hbpl/crd/*
+	@chmod 0644 $(INSTALL_DIR)/share/foo2hbpl/icm/*
 	@cp ppd/* $(INSTALL_DIR)/share/ppd/hbplv1
 	@chmod 0644 $(INSTALL_DIR)/share/ppd/hbplv1/*.ppd
 

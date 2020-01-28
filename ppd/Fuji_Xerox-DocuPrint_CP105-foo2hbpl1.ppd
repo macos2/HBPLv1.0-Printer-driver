@@ -337,15 +337,11 @@
 *OpenUI *ICM/ICM Color Profile: PickOne
 *FoomaticRIPOption ICM: enum CmdLine A
 *OrderDependency: 300 AnySetup *ICM
-*DefaultICM: none
+*DefaultICM: fxhk1z.icm
 *ICM none/No ICM color correction: "%% FoomaticRIPOptionSetting: ICM=none"
-*FoomaticRIPOptionSetting ICM=none: "-C10 -Gnone.icm "
-*ICM testing/File testing.icm: "%% FoomaticRIPOptionSetting: ICM=testing"
-*FoomaticRIPOptionSetting ICM=testing: "-C10 -Gtesting.icm "
-*ICM testing2/File testing2.icm: "%% FoomaticRIPOptionSetting: ICM=testing2"
-*FoomaticRIPOptionSetting ICM=testing2: "-C10 -Gtesting2.icm "
-*ICM testing3/File testing3.icm: "%% FoomaticRIPOptionSetting: ICM=testing3"
-*FoomaticRIPOptionSetting ICM=testing3: "-C10 -Gtesting3.icm "
+*FoomaticRIPOptionSetting ICM=none: "-C10 -G none.icm "
+*ICM fxhk1z.icm/File fxhk1z.icm: "%% FoomaticRIPOptionSetting: ICM=fxhk1z.icm"
+*FoomaticRIPOptionSetting ICM=fxhk1z.icm: "-C10 -G fxhk1z.icm "
 *CloseUI: *ICM
 
 *CloseGroup: Adjustment
