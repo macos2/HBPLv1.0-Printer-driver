@@ -1,5 +1,5 @@
 /*
- * $Id: hbpldecode.c,v 1.63 2014/03/24 12:30:15 rick Exp $
+ * $Id: hbpldecode.c,v 1.66 2014/09/25 14:28:15 rick Exp $
  */
 
 /*b
@@ -288,7 +288,7 @@ decode2(FILE *fp, int curOff)
 	((X) >= 0 && (X) < sizeof(A)/sizeof(A[0])) \
 	? A[X] : "UNK"
     char *strsize[] = {
-	/*00*/	"unk", "A4", "B5", "unk", "Letter",
+	/*00*/	"Custom", "A4", "B5", "A5", "Letter",
 	/*05*/	"Executive", "FanFoldGermanLegal", "Legal", "unk", "env#10",
 	/*10*/	"envMonarch", "envC5", "envDL", "unk", "unk",
 	};
@@ -299,6 +299,7 @@ decode2(FILE *fp, int curOff)
 	/*10*/	"LwCard-side2", "LwGCard-side2", "Recycled-side2",
 	};
 
+    proff(curOff); printf("[hbpldecode2]\n");
     for (;;)
     {
 	len = 4;
@@ -738,6 +739,7 @@ parse1(FILE *fp, int *curOff)
 	    strsize[i] = "Custom";
     strsize[205] = "folio";	// 8.5x13
 
+    proff(*curOff); printf("[hbpldecode1]\n");
     while ((proff(*curOff), (*curOff)++, rectype = fgetc(fp)) != EOF)
     {
 	printf("RECTYPE '%c' [0x%x]:\n", rectype, rectype);
