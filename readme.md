@@ -8,7 +8,10 @@ Click the link below for more detail about the new driver.
 
 点击以下链接以了解更多新驱动的详情。
 
-[to github](https://github.com/macos2/HBPLv1.0_Plus-Printer-driver) [to gitee](https://gitee.com/macos2/HBPLv1.0_Plus-Printer-driver)
+[to github](https://github.com/macos2/HBPLv1.0_Plus-Printer-driver) 
+
+[to gitee](https://gitee.com/macos2/HBPLv1.0_Plus-Printer-driver)
+
 Index
 -----
 This is the Linux Printer Driver for HBPLv1.0 Printer ,such as Dell 1250c, Dell C1660w, Dell C1760w, Epson AcuLaser C1700, Fuji-Xerox DocuPrint CP105b.
