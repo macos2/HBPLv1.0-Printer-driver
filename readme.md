@@ -107,7 +107,7 @@ Knowed Bugs 已知问题
   打印过于频繁，打印机可能会对打印作业没有相应，重插打印机usb接口应该可解决问题。
 
 * The print direction may be reversed in some graphic softwares like eog , if you care the direction, you can print the thing into a ghostscript file or a pdf file, and then print the ghostscript file or the pdf file with the printer.
-  在某些图像软件如eog，打印图像方向可能会反转，如果你对打印方向有要求，可先把打印内容输出至postscript或pdf文件，然后再用打印机打印该ghostscript或pdf文件。
+  在某些图像软件如eog，打印图像方向可能会反转，如果你对打印方向有要求，可先把打印内容输出至postscript或pdf文件，然后再用打印机打印该postscript或pdf文件。
 
 * The printer is not responed after first time printing @`Debian 10`（CUPS way）,but it work fine @`Fedora 31`,so I recommend using this driver @`Fedora 31`,but you can skip this problem by command line usage at `Debian 10`.
   在`Debian 10`环境下，首次打印后打印机会对后续的打印作业没有响应(CUPS 方式)，但在`Fedora 31`则没有这个问题，所以我建议你在`Fedora 31`上使用这打印驱动，但你也可以通过命令行的使用方式在`Debian 10`上避开这个使用问题。
